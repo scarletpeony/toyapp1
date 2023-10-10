@@ -12,7 +12,7 @@ st.set_page_config(page_title=apptitle, page_icon='random',
 
 @st.cache_resource
 def load_model():
-	with open("modelheart.pkl", "rb") as f:
+	with open("https://github.com/scarletpeony/toyapp1/blob/main/modelHeart.pkl", "rb") as f:
 		model = pickle.load(f)
 	return model
 model = load_model()
